@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="public.master.cs" Inherits="web_hada.Public._public" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pagina.Master.cs" Inherits="web_hada.Public._public" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>HARD WAY</title>
-    <link href="Estilos/Principal.css" rel="stylesheet" type="text/css" />//agregamos el codigo css
+    <link href="Estilos/Principal.css" rel="stylesheet" type="text/css" />    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
