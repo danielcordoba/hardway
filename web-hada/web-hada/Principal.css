@@ -1,5 +1,5 @@
 ﻿header {
-    background:#ff6a00;
+    background:#ffd800;
     color:#fff;
 }
 .main {
@@ -10,8 +10,16 @@
     background: #34495e;
     color: #fff;
 }
-
+.color2 {
+    background:#00f821;
+    color: #fff;
+}
 aside {
-    background:#c0392b;
+    background:#ff6a00;
     color:#fff;
+}
+
+footer{
+    background:#ff0000;
+    color:aliceblue;
 }
