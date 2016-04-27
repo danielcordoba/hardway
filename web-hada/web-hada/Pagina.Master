@@ -4,20 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>HARD WAY</title> 
-    <link href="Principal.css" rel="stylesheet" />  
     <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+     </asp:ContentPlaceHolder>
      <meta charset="utf‐8"/>
      <meta name="viewport" content="width=device‐width, initial‐scale=1.0"/>
-     <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../Principal.css" rel="stylesheet" />
-
+    <link href="Principal.css" rel="stylesheet" />
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
 
-       
 </head>
    
 
@@ -30,8 +26,26 @@
             <h1>Header</h1>
 
         </div>
+   
     </header>
 
+    <div class="container">
+        <section class="main">
+            <article>
+                <p>
+                    El artículo es un tipo de determinante actualizador, una categoría de la morfología que emplean algunas lenguas para actualizar o precisar la referencia de un sustantivo, transformándolo de desconocido y abstracto («un libro») a conocido y concreto («el libro»). Dicho de una forma más clara, es un implemento o indicador que sitúa lo que se dice en el campo en que se dice, común al que lo dice y al que lo oye, o sea, en el mutuo acuerdo de los interlocutores.
+                    En gramática tradicional, se llama artículo tanto a los determinantes definidos como al determinante indefinido relacionado con el significado de '1'. En gramática generativa en general se considera que el artículo es el núcleo sintáctico del sintagma determinante.
+                </p>
+            </article>
+
+            <aside>
+                <p>
+                    El artículo es un tipo de determinante actualizador, una categoría de la morfología que emplean algunas lenguas para actualizar o precisar la referencia de un sustantivo, transformándolo de desconocido y abstracto («un libro») a conocido y concreto («el libro»). Dicho de una forma más clara, es un implemento o indicador que sitúa lo que se dice en el campo en que se dice, común al que lo dice y al que lo oye, o sea, en el mutuo acuerdo de los interlocutores.
+                    En gramática tradicional, se llama artículo tanto a los determinantes definidos como al determinante indefinido relacionado con el significado de '1'. En gramática generativa en general se considera que el artículo es el núcleo sintáctico del sintagma determinante.
+                </p>
+            </aside>
+        </section>
+    </div>
     
     
         <!-- Latest compiled and minified JavaScript -->
@@ -43,17 +57,33 @@
 
 
 
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
-    <p>
-&nbsp;</p>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
