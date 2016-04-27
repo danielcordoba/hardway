@@ -3,14 +3,46 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>HARD WAY</title>
-    <link href="Estilos/Principal.css" rel="stylesheet" type="text/css" />    
+    <title>HARD WAY</title> 
+    <link href="Principal.css" rel="stylesheet" />  
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+     <meta charset="utf‐8"/>
+     <meta name="viewport" content="width=device‐width, initial‐scale=1.0"/>
+     <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../Principal.css" rel="stylesheet" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+       
 </head>
+   
+
+
+
+
 <body>
+     <header>
+        <div class="container">
+            <h1>Header</h1>
+
+        </div>
+    </header>
+
+    
+    
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="scripts/jquery-1.9.1.intellisense.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+
+
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -18,5 +50,72 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    <p>
+&nbsp;</p>
 </body>
+</html>
+
+
+
+<html>
+    <head>
+        <title>menu desplegable</title>
+
+        <style type="text/css">
+            *{
+                padding:0px;
+                margin:0px;
+            }
+            #header{
+                margin:auto;
+                width:500px ;
+                font-family:Arial, Arial, Helvetica, sans-serif;
+
+            }
+            ul, ol{
+                list-style:none;
+            }    
+            .navie li a{
+                background-color:#000;
+                color:#fff;
+                text-decoration:none;
+                padding:10px 15px;
+                display: block;
+
+            }
+            
+            .navie li a:hover{
+                background-color:#434343;
+            }
+            .navie > li{
+                float:left;
+            }
+            .navie li ul{
+                display:none;
+                position:absolute;
+                min-width:140px;
+
+            }
+            .navie li:hover > ul{
+                display:block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <ul class="navie">
+                <li><a href="">Inicio</a> </li>
+                <li><a href="">Deportes</a>
+                    <ul>
+                      <li><a href="">Futbol</a></li>
+                        <li><a href="">Baloncesto</a></li>
+                        <li><a href="">Tenis</a></li>
+                    </ul>
+                <li><a href="">Contacto</a></li>
+                
+                <li><a href="">Ofertas</a></li>
+            </ul>
+        </div>
+    </body>
 </html>
