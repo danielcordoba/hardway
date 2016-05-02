@@ -154,8 +154,8 @@
                                             <span id="text-register-msg">Nuevo usuario.</span>
                                         </div>
                                         <input id="register_username" class="form-control" type="text" placeholder="Usuario"/>
-                                        <input id="register_email" class="form-control" type="text" placeholder="Este campo es obligatorio"/>
-                                        <input id="register_password" class="form-control" type="password" placeholder="Este campo es obligatorio"/>
+                                        <input id="register_email" class="form-control" type="text" placeholder="e-mail(Este campo es obligatorio)"/>
+                                        <input id="register_password" class="form-control" type="password" placeholder="contraseña(Este campo es obligatorio)"/>
                                     </div>
                                     <div class="modal-footer">
                                         <div>

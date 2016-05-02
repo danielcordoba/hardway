@@ -26,7 +26,7 @@ $(function () {
             case "lost-form":
                 var $ls_email = $('#lost_email').val();
                 if ($ls_email == "ERROR") {
-                    msgChange($('#div-lost-msg'), $('#icon-lost-msg'), $('#text-lost-msg'), "error", "glyphicon-remove", "El e-mail no aparece en nuestra base de datos");
+                    msgChange($('#div-lost-msg'), $('#icon-lost-msg'), $('#text-lost-msg'), "error", "glyphicon-remove", "El e-mail no registrado");
                 } else {
                     msgChange($('#div-lost-msg'), $('#icon-lost-msg'), $('#text-lost-msg'), "success", "glyphicon-ok", "Se ha enviado en email a tu correo. Revísalo");
                 }
